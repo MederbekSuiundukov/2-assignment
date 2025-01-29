@@ -1,4 +1,2 @@
-## Class 
- 
-
-![download.jpg](..%2F..%2FAppData%2FLocal%2FTemp%2Fdownload.jpg)
+## Class
+https://images.app.goo.gl/3YodMYnvMf7tWyPp9

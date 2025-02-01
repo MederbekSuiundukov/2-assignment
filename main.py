@@ -16,7 +16,6 @@ class Group:
         for student in self.lst_spisok:
             print(f"{student.name} {student.surname}, Age: {student.age}")
 
-# Create Student objects
 student1 = Student("Marsel", "Sharapov", "18")
 student2 = Student("Aibek", "Ubraimov", "19")
 student3 = Student("Zhalil", "Kachkynov", "23")

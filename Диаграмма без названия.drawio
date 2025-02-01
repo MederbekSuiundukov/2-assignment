@@ -1,9 +1,54 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
   <diagram name="Страница — 1" id="PTLQGEbgIMoFRtkonCq3">
-    <mxGraphModel>
+    <mxGraphModel dx="401" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XOR3-Q-lOXMi_LotpOle-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XOR3-Q-lOXMi_LotpOle-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XOR3-Q-lOXMi_LotpOle-5" target="XOR3-Q-lOXMi_LotpOle-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XOR3-Q-lOXMi_LotpOle-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XOR3-Q-lOXMi_LotpOle-6" value="Group" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="135" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XOR3-Q-lOXMi_LotpOle-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XOR3-Q-lOXMi_LotpOle-7" target="XOR3-Q-lOXMi_LotpOle-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XOR3-Q-lOXMi_LotpOle-7" value="Student" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="135" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XOR3-Q-lOXMi_LotpOle-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="200" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XOR3-Q-lOXMi_LotpOle-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XOR3-Q-lOXMi_LotpOle-9" target="XOR3-Q-lOXMi_LotpOle-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XOR3-Q-lOXMi_LotpOle-9" value="- name: str&lt;div&gt;-surname:&amp;nbsp;&lt;/div&gt;&lt;div&gt;- age:str&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XOR3-Q-lOXMi_LotpOle-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="200" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XOR3-Q-lOXMi_LotpOle-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XOR3-Q-lOXMi_LotpOle-14" target="XOR3-Q-lOXMi_LotpOle-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XOR3-Q-lOXMi_LotpOle-14" value="-group_name:str&lt;div&gt;-studens:list&lt;/div&gt;&lt;div&gt;-professor: str&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XOR3-Q-lOXMi_LotpOle-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="215" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XOR3-Q-lOXMi_LotpOle-20" value="+__init__(group_name,student,professor)&lt;div&gt;+display_info()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="290" width="236" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XOR3-Q-lOXMi_LotpOle-22" value="+__init__(name,surname,age)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="137.5" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
